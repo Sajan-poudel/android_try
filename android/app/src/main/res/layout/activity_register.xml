@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:gravity="center"
+    tools:context=".RegisterActivity">
+
+    <LinearLayout
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/registerTxt"
+            android:text="Register"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:layout_marginBottom="20dp"
+
+            android:textSize="30dp"
+            android:textColor="@color/purple_500"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/nameEditTxt"
+            android:hint="Enter your name"
+            android:textColor="#003366"
+            android:inputType="text"
+            android:layout_marginTop="20dp"
+            android:textColorHint="@color/teal_700" />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:id="@+id/lastEditTxt"
+            android:textColor="#003366"
+            android:hint="Enter your last name"
+            android:textColorHint="@color/teal_700"
+            android:inputType="text" />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/emailEditTxt"
+            android:layout_marginTop="20dp"
+            android:textColorHint="@color/teal_700"
+            android:hint="Enter your email"
+            android:textColor="#003366"
+            android:inputType="textEmailAddress"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/passwordEditTxt"
+            android:layout_marginTop="20dp"
+            android:hint="Enter your Password"
+            android:textColor="#003366"
+            android:textColorHint="@color/teal_700"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:id="@+id/submitBtn"
+            android:layout_marginTop="35dp"
+            android:text="Register"
+            android:textStyle="bold"
+            android:paddingVertical="10dp"
+            android:paddingHorizontal="25dp"
+            android:textSize="18dp"/>
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>
