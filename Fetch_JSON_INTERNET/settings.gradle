@@ -1,0 +1,2 @@
+rootProject.name = "Fetch_JSON_INTERNET"
+include ':app'
